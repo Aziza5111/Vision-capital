@@ -14,11 +14,6 @@ ol {
   list-style: none;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 body {
   font-family: "Poppins", serif;
   color: #23155b;
@@ -120,11 +115,6 @@ body {
   width: auto;
 }
 
-.pipline-partners {
-  display: flex;
-  gap: 15px;
-}
-
 .traditional {
   display: flex;
   justify-content: space-between;
@@ -135,6 +125,7 @@ body {
   font-size: 30px;
   line-height: 60px;
   width: 50%;
+  margin-top: 100px;
 }
 
 .traditional-title span {
@@ -214,6 +205,7 @@ body {
 .answer-list {
   width: 540px;
   margin-bottom: 25px;
+
 }
 
 .all-sentence p:nth-child(1) {
@@ -243,4 +235,86 @@ body {
 .forProjects-btns .white-btn {
   padding: 15px;
   font-weight: 500;
+}
+.partnership {
+  background: #f8fafc;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.text-section {
+  flex: 1 1 45%;
+}
+
+.text-section h2 {
+  font-size: 28px;
+  color: #1d1d1f;
+}
+
+.text-section h2 span {
+  color: #4a00e0;
+}
+
+.text-section p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.form-section {
+  flex: 1 1 45%;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h3 {
+  color: #1d1d1f;
+  margin-bottom: 10px;
+}
+
+.form-section span {
+  color: #4a00e0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: linear-gradient(90deg, #4a00e0, #8e2de2);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
 }
